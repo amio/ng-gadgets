@@ -1,0 +1,54 @@
+body, * {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+}
+
+/* Layouts */
+
+#layout {
+    padding: 0;
+}
+
+.sidebar {
+    background: rgb(61, 79, 93);
+    color: #fff;
+}
+
+.header {
+    text-align: center;
+    top: auto;
+    margin: 3em auto;
+    color: #B0CAD9;
+}
+
+.content {
+    padding: 2em 1em 0;
+}
+
+@media (min-width: 48em) {
+    .content {
+        padding: 2em 3em 0;
+        margin-left: 25%;
+    }
+
+    .header {
+        margin: 80% 2em 0;
+        text-align: right;
+    }
+
+    .sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+    }
+}
+
+/* Contents */
+
+dt {
+    margin-top: 1em;
+    font-size: 26px;
+    line-height: 1.8em;
+    font-weight: bold;
+    border-bottom: 2px dotted #EEE;
+}
